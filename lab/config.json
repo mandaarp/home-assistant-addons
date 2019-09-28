@@ -9,7 +9,7 @@
     "boot": "auto",
     "options": {},
     "schema": {},
-    "webui": "http://localhost:18888",
+    "webui": "[PROTO:ssl]://[HOST]:[PORT:18888]",
     "ports": {
         "8888/tcp": 18888
     },
@@ -41,7 +41,6 @@
     "legacy": false,
     "image": "mandaarp/home-asisstant-lab:latest",
     "timeout": 10,
-    "tmpfs": "",
     "discovery": [],
     "services": [],
     "auth_api": true,
