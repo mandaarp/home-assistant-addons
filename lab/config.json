@@ -39,7 +39,7 @@
     "kernel_modules": false,
     "stdin": false,
     "legacy": false,
-    "image": "mandaarp/home-asisstant-lab",
+    "image": "mandaarp/home-asisstant-lab:latest",
     "timeout": 10,
     "discovery": [],
     "services": [],
