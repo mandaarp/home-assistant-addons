@@ -1,6 +1,6 @@
 {
     "name": "Home Asisstant Lab",
-    "version": "1",
+    "version": "latest",
     "slug": "home_assistant_lab",
     "description": "Home Assistant Lab Add-on by Mandar Patil",
     "arch": ["amd64", "i386"],
