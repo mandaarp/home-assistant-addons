@@ -17,7 +17,7 @@
         "init_commands": []
     },
     "schema": {},
-    "webui": "[PROTO:ssl]://[HOST]:[PORT:8888]",
+    "webui": "[PROTO:ssl]://[HOST]:[PORT:18888]",
     "ports": {
         "8888/tcp": 18888
     },
