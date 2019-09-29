@@ -1,5 +1,5 @@
 {
-    "name": "Home Asisstant Lab",
+    "name": "Home Assistant Lab",
     "version": "latest",
     "slug": "home_assistant_lab",
     "description": "Home Assistant Lab Add-on by Mandar Patil",
@@ -19,7 +19,7 @@
     "schema": {},
     "webui": "[PROTO:ssl]://[HOST]:[PORT:8888]",
     "ports": {
-        "8888/tcp": 8888
+        "8888/tcp": 18888
     },
     "ports_description": {
         "8888/tcp": "Notebook port"
@@ -57,7 +57,7 @@
     "services": [],
     "auth_api": true,
     "ingress": true,
-    "ingress_port": 8888,
+    "ingress_port": 0,
     "ingress_entry": "",
     "panel_icon": "mdi:puzzle",
     "panel_title": "Home Assistant Lab",
