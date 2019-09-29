@@ -24,7 +24,7 @@
     "ports_description": {
         "8888/tcp": "Notebook port"
     },
-    "host_network": false,
+    "host_network": true,
     "host_ipc": false,
     "host_dbus": false,
     "host_pid": false,
@@ -38,7 +38,7 @@
     "docker_api": false,
     "privileged": [],
     "full_access": false,
-    "apparmor": false,
+    "apparmor": true,
     "map": [
     "config:rw",
     "share:rw",
